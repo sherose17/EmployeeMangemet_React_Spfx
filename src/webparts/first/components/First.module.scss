@@ -1,0 +1,312 @@
+:global { #workbenchPageContent, .CanvasComponent.LCS .CanvasZone { max-width: 100% !important; } }
+
+
+*{
+padding: 0;
+ margin: 0;
+ }
+.navbar {
+padding: 20px;
+ color: #CAD5E2;
+background-color: #CAD5E2;
+}
+.nh1 {
+text-decoration: none;
+}
+.home{
+margin-top: 15px;
+  
+margin-bottom: 15px;
+  
+display: flex;
+  align-items: center;
+  
+justify-content: space-around;
+  
+}
+  
+.serchtab
+{
+ padding: 10px;  
+ width: 400px;
+}
+  
+  
+  
+  
+  .homebtn{
+  
+ padding: 10px;
+  
+ width: 200px;
+  }
+  
+  
+  
+  
+  .carddisplay{
+  
+ margin-top: 15px;
+  
+ margin-bottom: 15px;
+ flex-wrap: wrap;
+ display: flex;
+}
+  
+  
+  
+  
+.card{
+width: 300px;
+height: 300px;
+margin: 15px;
+border-style: solid;
+border-color: rgb(168, 167, 167);
+display: flex;
+flex-direction: column;
+align-items: center;
+box-sizing: border-box;  
+justify-content: center;
+  
+  }
+  
+  
+  
+  
+  .image{
+  
+   width: 50px;
+  
+  height: 50px;
+  
+ background: #000;
+  
+ border-radius: 50%;
+  
+   margin-bottom: 30px;
+  
+  
+  
+  
+  }
+  
+  
+  
+  
+  .adduser{
+  
+   margin-top: 15px;
+  
+   margin-bottom: 15px;
+  
+   display: flex;
+  
+   align-items: center;
+  
+   justify-content: center;
+  
+  
+  
+   width: 500px;
+  
+   margin-left: 300px;
+  
+  }
+  
+  
+  
+  
+  .addimage{
+  
+   width: 33%;
+  
+   display: flex;
+  
+   align-items: center;
+  
+   justify-content: space-around;
+  
+   margin-top: 100px;
+  
+   flex-direction: column;
+  
+   margin-bottom: 100px;
+  
+  }
+  
+  
+  
+  
+  .adddetails{
+  
+   width: 66%;
+  
+  }
+  
+  
+  
+  
+  input{
+  
+   padding: 10px;
+  
+   border-radius: 12px;
+  
+   margin: 5px;
+  
+  
+  
+  }
+  
+  
+  
+  
+  .addbtn{
+  
+   padding: 10px 15px;
+  
+   border-radius: 15%;
+  
+   margin-left: 30px;
+  
+   margin-top: 10px;
+  
+  }
+  
+  
+  
+  
+  .btn{
+  
+   background: red;
+  
+   padding: 10px 15px;
+  
+   margin-top: 10px;
+  
+   border-radius: 14px;
+  
+ border: none;
+  
+  }
+  .btn1{
+  
+    background: rgb(0, 255, 76);
+   
+    padding: 10px 15px;
+   
+    margin-top: 10px;
+   
+    border-radius: 14px;
+   
+    border: none;
+   
+   }
+   .button-back {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 6px 12px;
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .button-profile {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 12px;
+    font-size: 25px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .linkk{
+    text-decoration: none;
+  }
+  
+  .button-document {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 12px;
+    font-size: 25px;
+    margin-left: 20px;
+
+    cursor: pointer;
+  }
+  .AddImage{
+    height: 300px;
+    width: 250px;
+  }
+  .imageFront{
+    height:10px;
+    width: 10px;
+
+  }
+
+  .imageFront img {
+    margin-top: -850px  !important;
+    margin-left: -50px;
+    width: 70px;
+    
+    border-radius: 10px;
+    
+  }
+
+  //Single User
+  .userContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #df8282;
+    border-radius: 5px;
+  
+    .userName {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+  
+    .userEmail {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+  
+    .userDesignation {
+      font-size: 24px;
+      font-style: bold;
+    }
+  }
+  //image upload form
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .formInput {
+    margin-bottom: 10px;
+  }
+  
+  .formInput label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .formButton button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+  }
+  .profileImage{
+    width:200px;
+    border-radius: 10px;
+  }
