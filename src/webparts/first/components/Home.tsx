@@ -33,7 +33,7 @@ const Home = (): JSX.Element => {
             />
           </div>
           <div>
-            <h1>{users.length}</h1>
+            <h1>{}</h1>
           </div>
           <div>
             <button onClick={handleClick} className={styles.homebtn} >Add User</button>

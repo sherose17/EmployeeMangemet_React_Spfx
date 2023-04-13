@@ -30,8 +30,7 @@ const AddImage: React.FC<IFileUploadProps> = () => {
         setEmail(item.email);
         setName(item.first_name);
         setImageUrl(item.ImageUrl)
-        // console.log(imageUrl,"sucees img")
-        //console.log(item, "lasttime")
+        
       } catch (error) {
         console.log(error);
       }
@@ -58,7 +57,7 @@ const AddImage: React.FC<IFileUploadProps> = () => {
     
     const res= await sp.web.getFolderByServerRelativePath(item.ImageUrl).files.addUsingPath(`${selectedFile.name}`, selectedFile, { Overwrite: true })
     
-    console.log(res, "newImgurl");
+   // console.log(res, "newImgurl");
     //adding image path
     const list = sp.web.lists.getByTitle("userlist");
     

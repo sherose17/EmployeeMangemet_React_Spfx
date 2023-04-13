@@ -5,7 +5,7 @@ import { HashRouter } from 'react-router-dom';
 import App from './App';
 import { IFirstProps } from './IFirstProps';
 import UserContextProvider from './contexts/userContext';
-
+import "./bootstrap.min.css"
 
 export default class First extends React.Component<IFirstProps, {}> {
   public render(): React.ReactElement<IFirstProps> {

@@ -1,6 +1,5 @@
 import * as React from "react"
 
-
 import { useNavigate } from 'react-router-dom';
 
 //import { sp } from "./Sp/spauth"
@@ -12,7 +11,7 @@ interface Props {
 }
 
 const Card: React.FC<Props> = ({ user }) => {
-  const {imagePath}=user
+  const { imagePath } = user
   const navigate = useNavigate();
 
   const handleCardClick = (id: string) => {
@@ -22,11 +21,19 @@ const Card: React.FC<Props> = ({ user }) => {
   return (
     <div className={styles.card} onClick={() => handleCardClick(user.Id)}>
       <div className={styles.imageFront}>
-      <img src={`${imagePath}`} alt="Employee"/>
+        <img src={`${imagePath}`} alt="Employee" />
       </div>
-      <h1>{user.first_name}</h1>
-      <h2>{user.email}</h2>
-      <h2>{user.designation}</h2>
+      <div className={styles.format}>
+        <h1 className={styles.cardUserName}>{user.first_name}</h1>
+        <h2 className={styles.cardDetailsEmail}>{user.email}</h2>
+        <h2 className={styles.cardDetailsPostion}>{user.designation}</h2>
+        
+        <div>
+
+        </div>
+       
+
+      </div>
 
     </div>
   );
